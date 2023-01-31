@@ -1,0 +1,14 @@
+a = .0e12
+-- b = .e12
+-- c = 0.0e
+d = 0x12
+-- e = 0xABFG
+f = 0xA
+g = FFFF
+h = 0xFFFFFFFF
+-- i = 0x
+j = 0x1P10
+j = 0x1p10
+k = 0.1e1
+l = 0x0.1p1
+
