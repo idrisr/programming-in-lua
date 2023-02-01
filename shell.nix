@@ -1,8 +1,7 @@
 with (import <nixpkgs> { });
 mkShell {
   buildInputs = [
-    lua5_3
-    lua53Packages.lua-lsp
+    (lua5_3.withPackages (ps: with ps; [ lua-lsp ]))
 
   ];
 
